@@ -5,14 +5,14 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e0f7fa; /* Light cyan background color */
 }
 
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
-    background: #fff;
+    background: #ffffff; /* White background color for container */
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -21,19 +21,14 @@ body {
     border-bottom: 2px solid #333;
     padding-bottom: 10px;
     margin-bottom: 20px;
-    color: #007BFF; /* Heading color */
 }
 
 .toc-container {
     margin: 20px 0;
-    background-color: #f9f9f9; /* TOC background color */
-    padding: 10px;
-    border-radius: 5px;
 }
 
 .toc-container h2 {
     font-size: 1.2em;
-    color: #333; /* TOC heading color */
 }
 
 .toc {
@@ -47,11 +42,11 @@ body {
 
 .toc a {
     text-decoration: none;
-    color: #007BFF; /* Link color */
+    color: #333;
 }
 
 .toc a:hover {
-    color: #0056b3; /* Link hover color */
+    color: #007BFF;
 }
 
 section {
@@ -61,8 +56,6 @@ section {
 section img {
     display: block;
     margin: 20px auto;
-    border: 2px solid #007BFF; /* Image border color */
-    border-radius: 10px; /* Rounded corners for images */
 }
 
 .slideshow-container {
@@ -80,7 +73,6 @@ section img {
 .slide img {
     width: 100%;
     height: auto;
-    border-radius: 10px; /* Rounded corners for slideshow images */
 }
 
 .prev, .next {
@@ -96,7 +88,6 @@ section img {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-    background-color: rgba(0,0,0,0.5); /* Button background color */
 }
 
 .next {
@@ -112,7 +103,6 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    background-color: #fff; /* Table background color */
 }
 
 th, td {
@@ -122,20 +112,14 @@ th, td {
 }
 
 th {
-    background-color: #007BFF; /* Header background color */
-    color: white; /* Header text color */
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2; /* Row background color */
+    background-color: #f2f2f2;
 }
 
 tr:hover {
-    background-color: #e9e9e9; /* Row hover color */
+    background-color: #f5f5f5;
 }
 
 p {
     line-height: 1.6;
     margin: 10px 0;
-    color: #333; /* Paragraph text color */
 }
