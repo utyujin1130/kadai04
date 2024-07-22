@@ -1,49 +1,93 @@
 
+
 <!DOCTYPE html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>XXX's Curry Recipe</title>
+    <title>エネルギー機械コースの学び</title>
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
+  
     <!-- ここから本文開始 -->
-
-    <h1>XXX's Curry Recipe</h1>
+    <div class="container">
+ 
+    <section id="section1">
+    <h1 class="underlined-heading">エネルギー機械コースの学び</h1>
     <p>
-      XXX家に代々伝わる一子相伝・門外不出の「<strong>秘伝カレーレシピ</strong>」を、今だけ特別に公開します。<br />
-      秘伝のスパイスと独自の調理法が織りなす新世代のカレー、家族全員が笑顔になる魔法の一皿を、ぜひご堪能ください！
+      ここでは、大阪公立大学工業高等専門学校の本科のエネルギー機械コースを紹介します。<br />
+       </p>
+
+           <div class="toc-container">
+            <h2>目次</h2>
+            <ul class="toc">
+                <li><a href="#section1">・エネルギー機械コースとは</a></li>
+                <li><a href="#section2">・主な専門科目</a></li>
+                <li><a href="#section3">・コース実験・実習について</a></li>
+         
+            </ul>
+           </div>
+      
+    <img src="hikouki.jpg" alt="飛行機の画像" width="50%" />
+
+    <section id="section1">
+      <h2>エネルギー機械コースとは</h2>
+    <p>
+      　エネルギー機械コースでは、船や飛行機、車などの輸送機械や産業<a href="https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E3%82%B9%E3%83%88%E3%83%A9%E3%82%AF%E3%83%81%E3%83%A3%E3%83%BC">インフラ</a>の設計と運用に必要な技術を学ぶとともに、
+      水素エネルギー等のクリーンエネルギーの創生と貯蔵、自然災害の予測分析等、人のより良い暮らしと環境との共生を実現するための技術の修得を目指します。
+    </section>
+      
+　　<section id="section2">
+    <h2>主な専門科目</h2>
+    <p>
+      ●機械工学概論<br />
+      ●基礎製図<br />
+      ●<a href=https://ja.wikipedia.org/wiki/CAD>CAD<a/>製図<br />
+      ●機械設計製図<br />
+      ●機械力学<br />
+      ●材料力学<br />
+      ●熱力学<br />
+      ●流れ学<br />
+      ●機械工作法<br />
+      ●材料学<br />
+      ●エネルギー変換工学<br />
+      ●機械設計<br />
+      ●生産加工工学<br />
+      ●制御工学<br />
+      ●卒業研究<br />
+　　　<br />
+      詳しい授業内容については、<a href=https://www.ct.omu.ac.jp/studies/classes/syllabus-reg/>こちら<a/>をご覧ください。
     </p>
+    </section>
 
-    <img src="curryrice.jpg" alt="カレーライスの画像" width="100%" />
+    <div class="slideshow-container">
+        <div class="slide">
+            <img src="seizu.jpg" alt="seizu">
+        </div>
+        <div class="slide">
+            <img src="kikai.jpg" alt="kikai">
+        </div>
+        <div class="slide">
+            <img src="3d.jpg" alt="3d">
+        </div>
 
-    <h2>材料</h2>
-    <p><strong>8皿分の分量</strong>です。予算や気分にあわせて具材を追加したり、量を調整してください。</p>
+        <!-- 前へボタン -->
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <!-- 次へボタン -->
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
 
-    <ul>
-      <li>市販のカレールー（中辛）... 1/2箱</li>
-      <li>鶏肉 ... 400g</li>
-      <li>玉ねぎ ... 3個（中サイズ）</li>
-      <li>にんにく ... 1片</li>
-      <li>水 ... 700ml</li>
-      <li>サラダ油 ... 大さじ1</li>
-      <li>
-        <a href="https://ja.wikipedia.org/wiki/ガラムマサラ">ガラムマサラ</a>
-        ... 適量
-      </li>
-    </ul>
+    <script src="script.js"></script>
 
-    <h2>作り方</h2>
-    <ol>
-      <li>(材料をカットする)<br />玉ねぎを薄切りにし、にんにくをみじん切りにします。鶏肉は一口大に切ります。</li>
-      <li>(炒める)<br />鍋にサラダ油を熱し、にんにくを炒めます。香りが立ったら玉ねぎを加え、飴色になるまで炒めます。</li>
-      <li>(鶏肉を加える)<br />玉ねぎが飴色になったら、鶏肉を加えて炒めます。鶏肉の表面が白くなるまでしっかりと炒めます。</li>
-      <li>(水を加える)<br />鶏肉の色が変わったら、水を加えて沸騰させます。沸騰したらアクを取り除きます。</li>
-      <li>(煮込む)<br />カレールーを割り入れ、弱火で煮込みます。時々かき混ぜながら、ルーが完全に溶けるまで煮込みます。</li>
-      <li>(仕上げ)<br />ガラムマサラを適量加え、さらに5分ほど煮込んで香りを引き出します。</li>
-      <li>(盛り付け)<br />できあがったカレーをお皿に盛り、ご飯やナンと一緒にお楽しみください。</li>
-    </ol>
+    <section id="section3">
+    <h3>コース実験・実習について</h3>
+    <p>このコースでは、機械・力学などの知識を身に付けるだけでなく、実際に汎用工作機械により金属加工などを
+       行います。それ以外にも３Dプリンタによるものづくりを行うなど、幅広い分野から機械について実践的に学んでいきます。
+
+      
+    </section>
+    </div>
     <!-- ここまでで本文終了 -->
   </body>
 </html>
-
